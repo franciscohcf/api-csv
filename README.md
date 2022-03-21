@@ -23,7 +23,7 @@ Rodando o setup:
 $ bin/setup
 ```
 
-Agora, agora rodando o projeto:
+Agora, rodando o projeto:
 ```bash
 $ rails s
 ```
