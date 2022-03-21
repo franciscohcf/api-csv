@@ -23,7 +23,7 @@ Rodando o setup:
 $ bin/setup
 ```
 
-Agora, agora rodando o projto:
+Agora, agora rodando o projeto:
 ```bash
 $ rails s
 ```
@@ -34,7 +34,7 @@ $ rails s
 
 <h2 id="api" align="left">POST/ Enviando o CSV</h2>
 
-Endpoint para receber arquivo CSV e popular o banco.
+Esse endpoint popula o banco de dados por meio de um arquivo CSV.
 
 ```
 {{server_url}}/api/v1/seed_movies
@@ -44,7 +44,7 @@ Padrão de envio:
 
 Type | Key  | Value
 -------------- |------| -------------
-form-data | File | file.csv
+form-data | file | name.csv
 
 O arquivo CSV deve conter rows com os nomes a seguir:
 
@@ -54,7 +54,7 @@ O arquivo CSV deve conter rows com os nomes a seguir:
 
 <h2 id="api" align="left">GET/ Exibindo os filmes do banco.</h2>
 
-Endpoint para receber arquivo CSV e popular o banco.
+Esse endpoint lista os registros de filmes/séries contidos no banco de dados em formato JSON.
 
 ```
 {{server_url}}/api/v1/movies
