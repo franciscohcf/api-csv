@@ -15,6 +15,7 @@ AllCops:
 Metrics/BlockLength:
   Exclude:
     - 'config/routes.rb'
+    - 'spec/requests/movie_api_spec.rb'
 
 Style/AsciiComments:
   Enabled: false
